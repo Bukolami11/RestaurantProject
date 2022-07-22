@@ -8,23 +8,23 @@
     <link rel=icon href=/images/favicon.ico>
     <link rel="stylesheet" href="/css/master.css">
 
-    <title>Restaurant Management System</title>
+    <title>{{env('APP_NAME')}}</title>
   </head>
 
   <body class="text-left">
     <noscript>
       <strong>
-        We're sorry but Stocky doesn't work properly without JavaScript
+        We're sorry but {{env('APP_NAME')}} doesn't work properly without JavaScript
         enabled. Please enable it to continue.</strong
       >
     </noscript>
 
     <!-- built files will be auto injected -->
     <div class="loading_wrap" id="loading_wrap">
-      <div class="loader_logo">
-      <img src="/images/logo.png" class="" alt="logo" />
+{{--      <div class="loader_logo">--}}
+{{--      <img src="/images/logo.png" class="" alt="logo" />--}}
 
-      </div>
+{{--      </div>--}}
 
       <div class="loading"></div>
     </div>
